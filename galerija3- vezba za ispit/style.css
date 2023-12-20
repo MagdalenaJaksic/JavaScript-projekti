@@ -1,0 +1,51 @@
+.container{
+    border: 10px solid #000;
+ background-color: black;
+max-width: 50% !important;
+
+}
+.navbar{
+
+width: 100% !important; 
+}
+.nav-link, .navbar-brand{
+    color:#fff;
+}
+
+
+.galerijaContainer{
+    
+    border: 1px solid #000;
+    box-sizing: border-box;
+
+   
+}
+.container{
+    z-index: 1;
+    position: relative;
+}
+.row [class^="col"] {
+    padding: 5px; /* Dodajte padding između slika za crni okvir */
+  }
+body{
+    height: 100vh;
+
+    background: linear-gradient(#333,gray);
+}
+nav{
+    margin-bottom: 20px;
+}
+.modalContainer{
+  
+    top:0;
+    left: 0;
+    height: 100%;
+   
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(5px); /* Apply a blurred background effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

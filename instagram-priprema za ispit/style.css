@@ -1,0 +1,71 @@
+.navbar-nav{
+    flex-direction: row !important;
+}
+.main{
+    border: 1px solid grey;
+}
+.first, .second{
+    border-bottom: 1px solid grey;
+}
+.second{
+    /*height: 100px;*/
+}
+.paddingfixone{
+    padding-right: 0 !important;
+}
+.paddingfixtwo{
+    padding-left: 0 !important;
+}
+p{
+    padding-left: 10px;
+}
+body{
+    height: 100vh !important;
+    overflow: hidden;
+}
+.imgr{
+    float: right !important;
+}
+.rowfix{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    justify-content: space-between !important;
+}
+.rowfixtwo{
+    margin-left: 0 !important;
+    margin-right: 0 !important;   
+}
+.likesContainer{
+    padding-top: 15px;
+}
+.commentContainer{
+    background-color: rgb(158, 157, 157);
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.commentDiv{
+    border-bottom: 1px solid grey;
+    padding-left: 20px;
+}
+.commentDiv:first-child{
+   
+    border-top: 1px solid grey;
+      
+}
+#overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(66, 63, 63, 0.411);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.mainImg{
+    height: 90vh;
+    
+}

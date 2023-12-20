@@ -1,0 +1,29 @@
+
+.nav-link{
+    margin-left: 3px;
+    
+}
+.navbar{
+    justify-content: flex-start !important;
+}
+ #newRecipeBtn{
+     margin-top:20px;
+     margin-bottom: 20px;
+ }
+ header{
+     height: 40px;
+ }
+ .nav-link, .navbar-brand{
+     color: black;
+ }
+ .active{
+     border-bottom: 1px solid grey;
+     font-weight: bold;
+     
+ }
+ .card{
+     margin-bottom: 10px;
+ }
+.table{
+    width: 30% !important;
+}

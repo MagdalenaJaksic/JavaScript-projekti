@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+#utisci{
+    max-height: 92px;
+}
+.bg{
+    background-color: lightgray !important;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 3px;
+}
+body{
+    background-color: #210555 !important;
+}
+
+.select-opt{
+    margin-top: 40px;
+    background-color: #fff;
+    color: black;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.option{
+    padding-left: 10px;
+}
+.select{
+    position: relative;
+}
+.hovers{
+    background-color: #413f3f;
+    color: #fff;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(165, 160, 160, 0.315); /* Black background with opacity */
+    z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  .btnhover{
+      background-color: green !important;
+      border: 1px solid green !important;
+  }
+  .prikazano{
+      margin-top: 20px;
+      background-color: #fff;
+      border-radius: 15px;
+      border: 1px solid grey;
+  }
+  .info{
+      padding:20px;
+  }

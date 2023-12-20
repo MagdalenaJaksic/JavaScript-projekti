@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body class="bgc">
+    
+<div class="container">
+  
+   <div class="row">
+    <form action="">
+
+        <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="form-group col-4">
+                    <label for="ime">Ime</label>
+                    <input type="text" id="ime" name="ime" class="form-control" placeholder="Vase ime...">
+                </div>
+                <div class="col-2"></div>
+                <div class="form-group col-4">
+                    <label for="prezime">Prezime</label>
+                    <input type="text" id="prezime" name="prezime" class="form-control" placeholder="Vase prezime...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="predmet">Izaberite predmet</label>
+                <div class="select form-control">
+                    <div class="select-selected">Select an option</div>
+                <div class="select-opt hidden">
+                    <div class="option">Elektronsko poslovanje</div>
+                    <div class="option">Objektno orijenisano programiranje</div>
+                    <div class="option">Matematika</div>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="utisci">Utisci</label>
+                <textarea name="utisci" id="utisci" height="150px" class="form-control" placeholder="Utisci o predmetu.."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="prikazi">Prikazi</button>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="row">
+    <div class="sadrzaj"></div>
+</div>
+  
+</div>
+<div class="container-sadrzaj"></div>
+
+    
+   
+
+
+ 
+
+
+    <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

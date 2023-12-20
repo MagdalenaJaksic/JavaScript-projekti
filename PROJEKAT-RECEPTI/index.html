@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="navbar bg-light"> 
+            <a href="#" class="navbar-brand">Recipe Book</a>
+            <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link active" id="recipesBtn">Recipes</a></li>
+            <li class="nav-item"><a href="" class="nav-link" id="shoppingBtn">Shopping List</a></li>
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">Manage</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Option 1</a>
+                </div>
+            </li>
+            </ul>
+        </header>
+        <div class="container">
+            <main>
+                <button class="btn btn-success" id="newRecipeBtn">New recipe</button>
+                <hr>
+    <div class="card-container">
+       
+    </div>
+    <h4>Please select a recipe!</h2>
+        
+            </main>
+       
+      <div class="moduo2">
+     
+        <div class="row mt-5">
+            <div class="input-group">
+               
+                <label for="name">name</label>
+                <input type="text" class="form-control col-2 nameInput">
+                <div class="col-1"></div>
+                <label for="amount">amount</label>
+              <input type="text" class="form-control col-2 amountInput">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <button class="btn btn-success" id="addBtn">add</button>
+            <button class="btn btn-danger" id="deleteBtn">delete</button>
+            <button class="btn btn-primary" id="clearBtn">clear</button>
+        </div>
+        <table class="table mt-5">
+            <tbody class="tbody"></tbody>
+        </table>
+      </div>
+      <div class="moduo3">
+          
+              <label for="recipename">Name</label>
+              <input type="text" class="form-control nameRecipe">
+              <textarea class="form-control recipe" name="" id="" cols="30" rows="10">recipe text...</textarea>
+              <button class="btn btn-success" id="saveBtn">Save</button>
+          
+      </div>
+      <div class="moduomanage">
+          
+        <label for="nameRecipeManage">Name</label>
+        <input type="text" class="form-control nameRecipeManage">
+        <textarea class="form-control recipeManage" name="" id="" cols="30" rows="10">recipe text...</textarea>
+        <button class="btn btn-success" id="saveBtnManage">Save</button>
+    
+</div>
+    </div>
+</div>
+
+
+    <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>
